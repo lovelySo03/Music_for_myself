@@ -30,3 +30,19 @@ audio {
     display: block; 
     margin: 0 auto 20px;
 }
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5em; 
+    }
+    h3 {
+        font-size: 1em; 
+    }
+    iframe {
+        width: 100%; 
+        height: auto; 
+    }
+    audio {
+        width: 100%; 
+    }
+}
